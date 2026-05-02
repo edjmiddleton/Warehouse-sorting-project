@@ -10,3 +10,11 @@ The system tracks all items stored in the warehouse and maintains an accurate, u
 User Interface
 
 A user interface will display the current warehouse state, including item quantities and relevant item information. Users can interact with the system to add and remove stock without needing access to the source code. 
+
+
+Tier 1:
+- Tracks item quantities
+
+Tier 2:
+- Tracks batches
+- Uses FIFO when removing stock
